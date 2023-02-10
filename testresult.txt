@@ -1,0 +1,24 @@
+Evaluating /home/pba33/a1final/triangle_counting_parallel
+Executing Testcase1
+Using 4 workers
+/home/pba33/a1final/triangle_counting_parallel --nWorkers 4 --inputFile /scratch/input_graphs/lj
+Test case 1 exited with exit code : 0
+Evaluating Test case 1...
+Validation successful
+Your parallel execution time, T : 54.78391 seconds
+Expected parallel execution time, T_expected : 58.0 seconds
+Ideally, T should be equal to (or less than) T_expected
+Evaluation successful
+Evaluation script exited with exit code : 0
+
+Executing Testcase2
+Using 4 workers
+/home/pba33/a1final/triangle_counting_parallel --nWorkers 4 --inputFile /scratch/input_graphs/test_25M_50M
+Test case 2 exited with exit code : 0
+Evaluating Test case 2...
+Validation successful
+Your parallel execution time, T : 4.95268 seconds
+Expected parallel execution time, T_expected : 5.0 seconds
+Ideally, T should be equal to (or less than) T_expected
+Evaluation successful
+Evaluation script exited with exit code : 0
